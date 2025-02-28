@@ -5,7 +5,7 @@ import jakarta.persistence.*;
 @Entity
 @Table(name = "employee")
 public class Employee {
-    
+   // Account application for storing employee name and department 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
